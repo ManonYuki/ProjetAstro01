@@ -1,2 +1,5 @@
-terre,planet,1
-soleil,star,2
+sun,star,0
+mercury, planet,1
+venus, planet,2
+earth,planet,3
+
