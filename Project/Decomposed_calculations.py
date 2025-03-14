@@ -1,4 +1,6 @@
 import math
+import numpy as np
+import matplotlib.pyplot as plt
 
 G = 6.67430e-11
 MTerre = 5.97219e24
