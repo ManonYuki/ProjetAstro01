@@ -23,4 +23,9 @@ print(f"La force est de : {F} N")
 
 # accélération Lune
 aL = F/MLune
-print(f"L'accélération de la Lune est de : {aL} m.s^-1")
+print(f"L'accélération de la Lune est de : {aL} m.s^-2")
+
+# accélération Terre
+aT = F/MTerre
+print(f"L'accélération de la Terre est de : {aT} m.s^-2")
+
