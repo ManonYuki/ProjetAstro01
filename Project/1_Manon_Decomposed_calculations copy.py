@@ -23,6 +23,9 @@ print(f"La distance est de : {r}")
 F = G * MTerre * MLune / r**2
 print(f"La force est de : {F} N") 
 
+
+
+
 # accélération Lune
 aL = F/MLune
 print(f"L'accélération de la Lune est de : {aL} m.s^-2")
@@ -30,4 +33,7 @@ print(f"L'accélération de la Lune est de : {aL} m.s^-2")
 # accélération Terre
 aT = F/MTerre
 print(f"L'accélération de la Terre est de : {aT} m.s^-2")
+
+
+
 
