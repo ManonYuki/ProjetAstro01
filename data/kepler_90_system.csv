@@ -1,0 +1,10 @@
+Name,Type,Mass_kg,Radius_m,SemiMajorAxis_m,OrbitalPeriod_days,OrbitalPeriod_s,Star,DiscoveryYear
+Kepler-90,Star,2.2e+30,9.0e+08,0,0,0,N/A,2009
+Kepler-90 b,Planet,5.88e+25,8.22e+07,1.11e+10,7.008,6.06e+05,Kepler-90,2013
+Kepler-90 c,Planet,4.56e+25,8.22e+07,1.33e+10,8.719,7.54e+05,Kepler-90,2013
+Kepler-90 i,Planet,4.94e+25,8.00e+07,1.57e+10,14.449,1.25e+06,Kepler-90,2013
+Kepler-90 d,Planet,1.14e+27,2.06e+08,4.79e+10,59.736,5.16e+06,Kepler-90,2013
+Kepler-90 e,Planet,5.13e+25,9.44e+07,6.28e+10,91.939,7.95e+06,Kepler-90,2013
+Kepler-90 f,Planet,1.29e+26,2.06e+08,7.33e+10,124.91,1.08e+07,Kepler-90,2013
+Kepler-90 g,Planet,4.16e+26,5.79e+08,1.06e+11,210.58,1.82e+07,Kepler-90,2013
+Kepler-90 h,Planet,2.24e+27,8.10e+08,1.51e+11,331.6,2.87e+07,Kepler-90,2013
