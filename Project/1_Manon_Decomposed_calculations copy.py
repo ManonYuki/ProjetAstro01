@@ -14,16 +14,17 @@ dx = positionL[0] - positionT[0]
 dy = positionL[1] - positionT[1]
 dz = positionL[2] - positionT[2]
 
+# l'intervalle de temps au bout de laquelle on calcule la nouvelle position
+dT = 600.0
+
 # calcul de la distance entre les deux astres avec le théorème de Pythagore 3 dimensions
-r = math.sqrt(dx*dx + dy*dy + dz*dz)
+d = math.sqrt(dx*dx + dy*dy + dz*dz)
 
-# print("La distance est de :", r) = 
-print(f"La distance est de : {r}")
+# print("La distance est de :", d) = 
+print(f"La distance est de : {d}")
 
-F = G * MTerre * MLune / r**2
+F = G * MTerre * MLune / d**2
 print(f"La force est de : {F} N") 
-
-
 
 
 # accélération Lune
@@ -35,5 +36,6 @@ aT = F/MTerre
 print(f"L'accélération de la Terre est de : {aT} m.s^-2")
 
 
-
-
+# Vitesse = dérivée de
+vL += aL*dT 
+# += = rajoute à la valeur d'avant
