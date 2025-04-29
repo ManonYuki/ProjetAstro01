@@ -41,3 +41,5 @@ vL += aL*dT
 vT += aT*dT
 # += = rajoute à la valeur d'avant
 
+# Mise à jour des positions (Euler)
+
