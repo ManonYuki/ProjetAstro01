@@ -36,6 +36,8 @@ aT = F/MTerre
 print(f"L'accélération de la Terre est de : {aT} m.s^-2")
 
 
-# Vitesse = dérivée de
+# différence de vitesse qu'on rajoute à chaque fois
 vL += aL*dT 
+vT += aT*dT
 # += = rajoute à la valeur d'avant
+
